@@ -212,10 +212,10 @@ span{
     .container3{
         display: grid;
         grid-template-columns:repeat(1,1fr);
-     
     }
     .box{
-        width:fit-content;
+        width: 100%;
+        
     }
     .box .flag{
         width: 100%;
