@@ -168,14 +168,13 @@ span{
     padding-left: 10px;
 }
 /* /////mobile view//////// */
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
 
     .container{
         background-color: rgb(148, 141, 141);
         flex-direction: column;
         margin: 0%;
-        height:472px ;
-        width: 414px;  
+        width: fit-content; 
     }
     .header{
         width: fit-content;
@@ -198,9 +197,8 @@ span{
         padding-left: 50px;
     }
     img{
-        height: 245px;
-        width: 233px;
-        padding-left: 75px;
+        width: 100%;
+        padding-left: 15%;
     }
     .part2{
         flex-direction: column;
@@ -223,6 +221,7 @@ span{
     .box2 .banner2{
         padding: 0%;
         width: 100%;
+        
 
         
     }
