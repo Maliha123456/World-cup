@@ -217,16 +217,18 @@ span{
      
     }
     .box2{
-        margin-left: 10%;
+        width:fit-content;
         
     }
-    .banner2{
+    .box2 .banner2{
         padding: 0%;
+        width: 100%;
+
         
     }
     footer{
-        height: 412px;
-        width: 414px;
+       width:100%;
+       background-color: rgb(14, 14, 63);
     }
     .poppins-semibold{
         
