@@ -215,7 +215,7 @@ span{
      
     }
     .box{
-        width:100%;
+        width:fit-content;
     }
     .box .flag{
         width: 100%;
