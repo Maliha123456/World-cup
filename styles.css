@@ -198,7 +198,7 @@ span{
     }
     img{
         width: 100%;
-        padding-left: 15%;
+        padding-left: 8%;
     }
     .part2{
         flex-direction: column;
@@ -214,6 +214,13 @@ span{
         grid-template-columns:repeat(1,1fr);
      
     }
+    .box{
+        width:100%;
+    }
+    .box .flag{
+        width: 100%;
+    }
+    
     .box2{
         width:fit-content;
         
@@ -227,7 +234,7 @@ span{
     }
     footer{
        width:100%;
-       background-color: rgb(14, 14, 63);
+       background-color: rgb(10, 10, 36);
     }
     .poppins-semibold{
         
