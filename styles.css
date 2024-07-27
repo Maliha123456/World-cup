@@ -1,0 +1,254 @@
+
+.container{
+    height: 646px;
+    width: 1321px;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.header{
+    padding-left: 100px;
+    width: 50%;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: beige;
+    font-size: 70px;
+    margin-bottom: 10px;
+    
+  }
+.para{
+    color: beige;
+    font-size: 16px;
+    width:70%;
+    margin-top: auto;
+    }
+.first-button{
+    background-color: tomato;
+    height: 56px;
+    width: 187px;
+    border: none;
+    border-radius:3px ;
+    margin-top: 20px;
+    color: beige;
+}
+i{
+    padding-left: 20px;
+}
+
+img{
+    width: 581px;
+    height: 613px;
+}
+.part2{
+    display:flex;
+    margin-top: 70px;
+
+    
+}
+.container2{
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.match{
+    height: 64px;
+    width: 252px;
+    color:beige;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.blog{
+    height: 64px;
+    width: 252px;
+    color:black;
+    background-color:beige;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.container3{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+}
+.box{
+    background-color:rgb(251, 246, 246);
+    height:242px;
+    width: 312px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.poster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:40px ;
+ 
+}
+.flag{
+    height: 56px;
+    width: 93px;
+    padding: 15px;
+}
+footer{
+    height: 444px;
+    width: 1500px;
+    background-color: black;
+    text-align: center;
+    margin-top:120px;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    padding-top: 150px;
+  }
+
+hr{
+    width: 1320px;
+    height: 1px;
+    border: none;
+    background-color: #fff;
+    margin-bottom: 30px;
+    align-items: center;
+    
+}
+.footer-para{
+    display: flex;
+    color: #B9B9B9;
+    gap: 40px;
+    justify-content: center;
+}
+/* 2nd website design */
+.banner2{
+    height: 175px;
+    width: 312px;
+}
+.box2{
+    background-color:rgb(251, 246, 246);
+    height:363px;
+    width: 312px;
+    border-radius: 10px;
+}
+.simple{
+    height: 32px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.caption{
+    padding-left: 15px;
+    padding-top: 0%;
+}
+span{
+    padding-left: 10px;
+}
+/* /////mobile view//////// */
+@media screen and (max-width:576px) {
+
+    .container{
+        background-color: rgb(148, 141, 141);
+        flex-direction: column;
+        margin: 0%;
+        height:472px ;
+        width: 414px;  
+    }
+    .header{
+        width: fit-content;
+        text-align: center;
+        padding: 0%;
+       
+    }
+    .first-button{
+        background-color: rgb(202, 42, 42);
+        width: 161px;
+        height: 40px;
+        font-size: 15px;
+
+    }
+    .poppins-bold{
+        padding: 2%;
+        font-size:25px ;
+    }
+    .para{
+        padding-left: 50px;
+    }
+    img{
+        height: 245px;
+        width: 233px;
+        padding-left: 75px;
+    }
+    .part2{
+        flex-direction: column;
+        margin: 0%;
+    }
+    .container2{
+        background-color: #fff;
+        margin-left: 10%;
+      
+    }
+    .container3{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+     
+    }
+    .box2{
+        margin-left: 10%;
+        
+    }
+    .banner2{
+        padding: 0%;
+        
+    }
+    footer{
+        height: 412px;
+        width: 414px;
+    }
+    .poppins-semibold{
+        
+        padding: 5%;
+        margin: 0%;
+        font-size: 25px;
+    }
+    .footer-para{
+        flex-direction: column;
+        gap: 25px;
+        padding: 0%;
+        margin: 0%;
+    }
+    p{
+        margin: 0%;
+    }
+    hr{
+        width: 335px;
+        height: 1px;
+        padding:0%;
+    }
+    
+   
+    
+}
